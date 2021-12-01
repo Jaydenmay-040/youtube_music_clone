@@ -68,7 +68,7 @@ body {
     align-items: center;
     margin: 0 0 90px 0;
 }
-#slideRight, #slideRight2, #slideRight3 {
+#slideRight, #slideRight2, #slideRight3, #slideRight4 {
     display: flex;
 }
 .right_content {
@@ -246,7 +246,7 @@ body {
 .quick_picks {
     margin: 36px 47px 0 47px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -261,6 +261,10 @@ body {
 .start_radio_music {
     /* margin: 0 22px 0 0; */
     display: flex;
+    width: 165%;
+}
+.pickSubContainer {
+    margin: 0 10% 0 0;
 }
 .pick_container:hover .pick {
     opacity: 0.5;

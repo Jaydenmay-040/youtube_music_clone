@@ -210,6 +210,8 @@ let quickPicks = [
         title: "Sincerely Kentrell",
         subtitle: "Album • YoungBoy NBA",
     },
+];
+let quickPick2 = [
     {
         cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
         title: "Sincerely Kentrell",
@@ -230,6 +232,8 @@ let quickPicks = [
         title: "Sincerely Kentrell",
         subtitle: "Album • YoungBoy NBA",
     },
+];
+let quickPick3 = [
     {
         cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
         title: "Sincerely Kentrell",
@@ -250,26 +254,8 @@ let quickPicks = [
         title: "Sincerely Kentrell",
         subtitle: "Album • YoungBoy NBA",
     },
-        {
-        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
-        title: "Sincerely Kentrell",
-        subtitle: "Album • YoungBoy NBA",
-    },
-    {
-        cover: "/images/Pop_Smoke_-_Meet_The_Woo_II.jfif",
-        title: "Meet The Woo II",
-        subtitle: "Album • Pop Smoke",
-    },
-    {
-        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
-        title: "Sincerely Kentrell",
-        subtitle: "Album • YoungBoy NBA",
-    },
-    {
-        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
-        title: "Sincerely Kentrell",
-        subtitle: "Album • YoungBoy NBA",
-    },
+];
+let quickPick4 = [
     {
         cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
         title: "Sincerely Kentrell",
@@ -290,6 +276,52 @@ let quickPicks = [
         title: "Sincerely Kentrell",
         subtitle: "Album • YoungBoy NBA",
     },
+];
+let quickPick5 = [
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+    {
+        cover: "/images/Pop_Smoke_-_Meet_The_Woo_II.jfif",
+        title: "Meet The Woo II",
+        subtitle: "Album • Pop Smoke",
+    },
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+];
+let quickPick6 = [
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+    {
+        cover: "/images/Pop_Smoke_-_Meet_The_Woo_II.jfif",
+        title: "Meet The Woo II",
+        subtitle: "Album • Pop Smoke",
+    },
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+    {
+        cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
+        title: "Sincerely Kentrell",
+        subtitle: "Album • YoungBoy NBA",
+    },
+];
+let quickPick7 = [
     {
         cover: "/images/YoungBoy_NBA_-_Sincerely_Kentrell.jfif",
         title: "Sincerely Kentrell",
@@ -346,7 +378,85 @@ function displayPick() {
         if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
             container.innerHTML += `<div class="pickSubContainer"></div>`
         }
-    }
+    };
+    for (quickPick of quickPick2) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
+    for (quickPick of quickPick3) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
+    for (quickPick of quickPick4) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
+    for (quickPick of quickPick5) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
+    for (quickPick of quickPick6) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
+    for (quickPick of quickPick7) {
+        if (!container.querySelector('.pickSubContainer')) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+
+        subContainers = document.querySelectorAll('.pickSubContainer')
+
+        let pick = newPick(quickPick);
+        subContainers[subContainers.length - 1].innerHTML += pick;
+        if (subContainers[subContainers.length - 1].getElementsByClassName("start_radio_music").length == 4) {
+            container.innerHTML += `<div class="pickSubContainer"></div>`
+        }
+    };
 }
 displayPick();
 
@@ -515,3 +625,22 @@ const buttonLeft2 = document.getElementById('slideLeft2');
     document.querySelector('.morning_music').scrollLeft -= 500;
   };
 
+const buttonRight3 = document.getElementById('slideRight2');
+const buttonLeft3 = document.getElementById('slideLeft2');
+//   MORNING MUSIC
+    buttonRight3.onclick = function () {
+        document.querySelector('.morning_music').scrollLeft += 500;
+    };
+    buttonLeft3.onclick = function () {
+        document.querySelector('.morning_music').scrollLeft -= 500;
+    };
+
+const buttonRight4 = document.getElementById('slideRight2');
+const buttonLeft4 = document.getElementById('slideLeft2');
+//   MORNING MUSIC
+    buttonRight4.onclick = function () {
+        document.querySelector('.quick_picks').scrollLeft += 500;
+    };
+    buttonLeft4.onclick = function () {
+        document.querySelector('.quick_picks').scrollLeft -= 500;
+    };
